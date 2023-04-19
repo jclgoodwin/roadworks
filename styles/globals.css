@@ -1,26 +1,33 @@
-html,
+@font-face {
+    font-family: "Transport New";
+    src: url('../public/transportnew-light.eot');
+    src: url('../public/transportnew-light.eot?#iefix') format('embedded-opentype'),
+         url('../public/transportnew-light.woff2') format('woff2'),
+         url('../public/transportnew-light.woff') format('woff'),
+         url('../public/transportnew-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Transport New";
+    src: url('../public/transportnew-medium.eot');
+    src: url('../public/transportnew-medium.eot?#iefix') format('embedded-opentype'),
+         url('../public/transportnew-medium.woff2') format('woff2'),
+         url('../public/transportnew-medium.woff') format('woff'),
+         url('../public/transportnew-medium.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Transport New", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+    body {
+        color-scheme: dark;
+    }
 }
